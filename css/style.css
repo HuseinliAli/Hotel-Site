@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*brand*/
+#header {
+  padding: 1rem 2rem;
+  background-color: rgba(24, 24, 24, 0.8);
+  color: #fff;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+}
+.nav-brand {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+.fa-hotel {
+  margin-right: 0.5rem;
+}
+.brand-name {
+  margin-right: 0.5rem;
+  color: gold;
+}
+
+/*navbar*/
+
+.navbar {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/**/
+.content {
+  z-index: 0;
+}
+#banner {
+  background-image: linear-gradient(rgba(51, 30, 30, 0.6), rgba(33, 10, 6, 0.4)),
+    url("/img/bg-1.jpeg");
+  background-attachment: fixed;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner-text {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.banner-text a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+.banner-text p {
+  width: 650px;
+}
+.banner-text h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+/*services*/
+#services {
+  display: flex;
+  padding: 1rem 2rem;
+}
+.service-card {
+  width: 25%;
+  padding: 0.3rem;
+  text-align: center;
+}
+.service-card-icon {
+  font-size: 4rem;
+}
+.service-card-title {
+  font-size: 1.5rem;
+  color: #1c1c1c;
+}
