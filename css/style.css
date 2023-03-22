@@ -88,3 +88,43 @@
   font-size: 1.5rem;
   color: #1c1c1c;
 }
+#customer-service {
+  display: flex;
+  background-color: #93979e;
+}
+#customer-service-img {
+  background-image: url("/img/about1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 50%;
+}
+.customer-service-text {
+  align-self: center;
+  color: #fff;
+}
+.customer-service-title {
+  font-size: 2rem;
+}
+.customer-service-button {
+  padding: 0.5rem 1rem;
+  border: 2px solid #fff;
+  background-color: #93979e;
+  color: #fff;
+  border-radius: 0.3rem;
+  transition: 0.3s;
+}
+.customer-service-button a {
+  color: #fff;
+  text-decoration: none;
+}
+.customer-service-button:hover {
+  padding: 0.5rem 1rem;
+  border: 2px solid #93979e;
+  background-color: #fff;
+  color: #93979e;
+}
+.customer-service-button:hover a {
+  color: #93979e;
+  text-decoration: none;
+}
