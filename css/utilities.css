@@ -12,6 +12,26 @@
   text-decoration: none;
   color: #fff;
 }
+.mes-1 {
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+.mes-2 {
+  margin-left: 0.4rem;
+  margin-right: 0.4em;
+}
+.mes-3 {
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+}
+.mes-4 {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+.mes-5 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 
 .mt-1 {
   margin-top: 0.2rem;

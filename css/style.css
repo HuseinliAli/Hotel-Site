@@ -128,3 +128,34 @@
   color: #93979e;
   text-decoration: none;
 }
+
+.gallery-text {
+  padding: 1rem 2rem;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.gallery-h {
+  font-size: 3rem;
+}
+.gallery-p {
+  padding-top: 1rem;
+  font-size: 1.4rem;
+}
+#gallery {
+  display: flex;
+  background-size: cover;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery-image {
+  width: 23%;
+  transition: 0.3s;
+}
+.gallery-image:hover {
+  z-index: 1;
+  opacity: 0.8;
+}
+.gallery-image img {
+  width: 100%;
+}
