@@ -1,0 +1,103 @@
+.list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.list-item {
+  padding: 0.5rem 1rem;
+  align-self: center;
+  font-size: 1.4rem;
+}
+.list-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.mt-1 {
+  margin-top: 0.2rem;
+}
+.mt-2 {
+  margin-top: 0.4rem;
+}
+.mt-3 {
+  margin-top: 0.6rem;
+}
+.mt-4 {
+  margin-top: 0.8rem;
+}
+.mt-5 {
+  margin-top: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.2rem;
+}
+.mb-2 {
+  margin-bottom: 0.4rem;
+}
+.mb-3 {
+  margin-bottom: 0.6rem;
+}
+.mb-4 {
+  margin-bottom: 0.8rem;
+}
+.mb-5 {
+  margin-bottom: 1rem;
+}
+
+.pes-1 {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+.pes-2 {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+.pes-3 {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+.pes-4 {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+.pes-5 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.ptb-1 {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+.ptb-2 {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+.ptb-3 {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+.ptb-4 {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+.ptb-5 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.btn {
+  border-radius: 0.25rem;
+  border: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-primary {
+  background-color: #0072dd;
+  color: #fff;
+  padding: 0.8rem 1.4rem;
+}
+.btn-primary:hover {
+  background-color: #005cb1;
+}
