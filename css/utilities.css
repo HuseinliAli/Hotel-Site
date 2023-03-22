@@ -147,3 +147,24 @@
 .lorem-p {
   font-size: 1.2rem;
 }
+.form input,
+.form label {
+  display: block;
+  border: 0;
+}
+.form input {
+  padding: 0.5rem;
+}
+.form input:not([type="submit"]) {
+  width: 100%;
+}
+.form input[type="submit"] {
+  background-color: #0072dd;
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+  border-radius: 0.2rem;
+  transition: 0.3s;
+}
+.form input[type="submit"]:hover {
+  background-color: #0055a5;
+}
