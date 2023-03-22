@@ -92,13 +92,14 @@
   display: flex;
   background-color: #93979e;
 }
-#customer-service-img {
+#customer-service-img-primary {
   background-image: url("/img/about1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 60vh;
   width: 50%;
 }
+
 .customer-service-text {
   align-self: center;
   color: #fff;
@@ -129,19 +130,6 @@
   text-decoration: none;
 }
 
-.gallery-text {
-  padding: 1rem 2rem;
-  text-align: center;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-.gallery-h {
-  font-size: 3rem;
-}
-.gallery-p {
-  padding-top: 1rem;
-  font-size: 1.4rem;
-}
 #gallery {
   display: flex;
   background-size: cover;
@@ -158,4 +146,71 @@
 }
 .gallery-image img {
   width: 100%;
+}
+/**/
+#customer-service-secondary {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3c67ea;
+}
+#customer-service-img-secondary {
+  background-image: url("/img/about2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 50%;
+}
+.customer-service-text-secondary {
+  padding: 2rem;
+  align-self: center;
+  color: #fff;
+}
+.customer-service-title-secondary {
+  font-size: 2rem;
+}
+.customer-service-paragraph-secondary {
+}
+.customer-service-button-secondary {
+  padding: 0.5rem 1rem;
+  border: 2px solid #fff;
+  background-color: #3c67ea;
+  color: #fff;
+  border-radius: 0.3rem;
+  transition: 0.3s;
+}
+.customer-service-button-secondary a {
+  color: #fff;
+  text-decoration: none;
+}
+.customer-service-button-secondary:hover {
+  padding: 0.5rem 1rem;
+  border: 2px solid #3c67ea;
+  background-color: #fff;
+  color: #3c67ea;
+}
+.customer-service-button-secondary:hover a {
+  color: #3c67ea;
+  text-decoration: none;
+}
+
+.room-cards {
+  padding: 2rem;
+  display: flex;
+}
+.room-card {
+  width: 33%;
+  padding: 1rem;
+}
+.room-card img {
+  width: 100%;
+}
+.room-content {
+  background-color: #d6a907;
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+}
+.room-card-title {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
 }
