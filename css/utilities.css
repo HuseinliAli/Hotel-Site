@@ -316,3 +316,18 @@
 .card-body h2 {
   font-weight: 400;
 }
+form {
+  width: 100%;
+}
+form input,
+form label {
+  display: block;
+  width: 100%;
+}
+form input {
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+form label {
+  margin-top: 2rem;
+}
