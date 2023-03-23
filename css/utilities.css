@@ -230,3 +230,16 @@
   color: var(--white);
   border: 2px solid var(--dark);
 }
+
+/*flex items*/
+.flex-items {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 2rem;
+}
+.flex-items > div {
+  padding: 2rem;
+  flex-basis: 100%;
+}
