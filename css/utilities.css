@@ -9,6 +9,21 @@
   --dark: #343a40;
   --light: #f8f9fa;
 }
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
+.p-4 {
+  padding: 4rem;
+}
+.p-5 {
+  padding: 5rem;
+}
 /*text color*/
 .text-white {
   color: var(--white);
@@ -89,13 +104,13 @@
 }
 
 .btn-primary-outline {
-  background-color: var(--white);
-  color: var(--primary);
-  border: 2px solid var(--primary);
-}
-.btn-primary-outline:hover {
   background-color: var(--primary);
   color: var(--white);
+  border: 2px solid var(--white);
+}
+.btn-primary-outline:hover {
+  background-color: var(--white);
+  color: var(--primary);
   border: 2px solid var(--primary);
 }
 /*secondary*/
@@ -111,13 +126,13 @@
 }
 
 .btn-secondary-outline {
-  background-color: var(--white);
-  color: var(--secondary);
-  border: 2px solid var(--secondary);
-}
-.btn-secondary-outline:hover {
   background-color: var(--secondary);
   color: var(--white);
+  border: 2px solid var(--white);
+}
+.btn-secondary-outline:hover {
+  background-color: var(--white);
+  color: var(--secondary);
   border: 2px solid var(--secondary);
 }
 /*success*/
@@ -242,4 +257,62 @@
 .flex-items > div {
   padding: 2rem;
   flex-basis: 100%;
+}
+
+.flex-columns .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.row .col {
+  flex: 1;
+}
+.row .col .col-1 {
+  height: 100%;
+}
+.row .col .col-1 img {
+  width: 100%;
+  height: 100%;
+}
+.row .col .col-2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3rem;
+}
+.row .col .col-2 h2 {
+  font-size: 4rem;
+}
+
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0.4rem;
+}
+.flex-grid .column {
+  flex: 25%;
+  padding: 1rem;
+}
+.flex-grid img:hover {
+  opacity: 0.8;
+}
+.section-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+.section-header h2 {
+  font-size: 4rem;
+}
+.section-header p {
+  font-size: 2rem;
+}
+
+.card-body h2 {
+  font-weight: 400;
 }

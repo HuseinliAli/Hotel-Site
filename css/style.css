@@ -46,6 +46,7 @@ img {
   width: 100%;
   height: 70px;
   padding: 0 3rem;
+  position: fixed;
 }
 .navbar a {
   color: var(--white);
@@ -105,4 +106,11 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 0;
+}
+
+#team img {
+  border-radius: 50%;
+}
+#team img:hover {
+  opacity: 0.8;
 }
