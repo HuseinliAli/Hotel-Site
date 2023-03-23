@@ -111,6 +111,7 @@ img {
 
 #team img {
   border-radius: 50%;
+  width: 70%;
 }
 #team img:hover {
   opacity: 0.8;
@@ -135,4 +136,18 @@ img {
 }
 #footer ul li a:hover {
   opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+  .navbar {
+    flex-direction: column;
+    height: 10rem;
+    padding: 2rem;
+  }
+  .navbar ul {
+    margin-top: 0.6rem;
+  }
 }

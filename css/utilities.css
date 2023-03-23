@@ -331,3 +331,14 @@ form input {
 form label {
   margin-top: 2rem;
 }
+@media (max-width: 768px) {
+  .flex-items {
+    flex-direction: column;
+  }
+  .row .col {
+    flex: 100%;
+  }
+  .flex-grid .column {
+    flex: 50%;
+  }
+}
