@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/utilities.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -16,261 +16,22 @@
     />
   </head>
   <body>
-    <header id="header">
-      <div class="nav-brand">
-        <i class="fa-solid fa-hotel"></i>
-        <p class="brand-name">Deluxe</p>
-        <p class="hotel">Hotel</p>
+    <header id="home" class="main-header">
+      <div class="navbar">
+        <h1 class="brand">
+          <i class="fas fa-hotel"></i>
+          <span>Deluxe</span> Hotel
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-
-      <nav class="navbar">
-        <ul class="list">
-          <li class="list-item"><a href="#banner">Home</a></li>
-          <li class="list-item"><a href="#customer-service">About</a></li>
-          <li class="list-item"><a href="#rooms">Rooms</a></li>
-          <li class="list-item"><a href="#">Blogs</a></li>
-          <li class="list-item"><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
     </header>
-
-    <main class="content">
-      <section id="banner">
-        <div class="banner-text">
-          <h1 class="mb-3 banner-title">Welcome To Deluxe</h1>
-          <p class="mb-2 ptb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
-            animi.
-          </p>
-          <button class="pes-4 ptb-3 btn btn-primary">
-            <i class="fa-solid fa-angle-right pes-1"></i
-            ><a href="">Read More</a>
-          </button>
-        </div>
-      </section>
-
-      <section id="services" class="mb-10 mt-10">
-        <div class="service-card mt-5 mb-5">
-          <i class="fa-sharp fa-solid fa-bell-concierge service-card-icon"></i>
-          <p class="service-card-title mt-2 mb-2">7/24 Front Desk</p>
-          <p class="service-card-text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
-            asperiores provident explicabo?
-          </p>
-        </div>
-        <div class="service-card mt-5 mb-5">
-          <i class="fa-sharp fa-solid fa-utensils service-card-icon"></i>
-          <p class="service-card-title mt-2 mb-2">Restourant Bar</p>
-          <p class="service-card-text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
-            asperiores provident explicabo?
-          </p>
-        </div>
-        <div class="service-card mt-5 mb-5">
-          <i class="fa-solid fa-truck-fast service-card-icon"></i>
-          <p class="service-card-title mt-2 mb-2">Transfer Services</p>
-          <p class="service-card-text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
-            asperiores provident explicabo?
-          </p>
-        </div>
-        <div class="service-card mt-5 mb-5">
-          <i class="fa-solid fa-spa service-card-icon"></i>
-          <p class="service-card-title mt-2 mb-2">Spa Suites</p>
-          <p class="service-card-text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
-            asperiores provident explicabo?
-          </p>
-        </div>
-      </section>
-
-      <section id="customer-service">
-        <div id="customer-service-img-primary"></div>
-        <div class="customer-service-text pes-10">
-          <p class="customer-service-title mt-2 mb-5">Customer Service</p>
-          <p class="customer-service-paragraph mt-2 mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus eos aliquid molestiae.
-          </p>
-          <button class="customer-service-button">
-            <a href="#"> Read More</a>
-          </button>
-        </div>
-      </section>
-
-      <section id="gallery-section" class="mb-20">
-        <section class="lorem-ipsum-head">
-          <p class="lorem-h">Lorem, ipsum.</p>
-          <p class="lorem-p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            tenetur.
-          </p>
-        </section>
-        <div id="gallery">
-          <div class="gallery-image mes-2 mt-2 mb-2">
-            <img src="/img/1.jpeg" alt="" />
-          </div>
-          <div class="gallery-image mes-2 mt-2 mb-2">
-            <img src="/img/2.jpeg" alt="" />
-          </div>
-          <div class="gallery-image mes-2 mt-2 mb-2">
-            <img src="/img/1.jpeg" alt="" />
-          </div>
-          <div class="gallery-image mes-2 mt-2 mb-2">
-            <img src="/img/2.jpeg" alt="" />
-          </div>
-          <div class="gallery-image mes-2 mt-2 mb-2">
-            <img src="/img/3.jpeg" alt="" />
-          </div>
-          <div class="gallery-image mes-2 mt-2 mb-2">
-            <img src="/img/4.jpeg" alt="" />
-          </div>
-          <div class="gallery-image mes-2 mt-2 mb-2">
-            <img src="/img/3.jpeg" alt="" />
-          </div>
-          <div class="gallery-image mes-2 mt-2 mb-2">
-            <img src="/img/4.jpeg" alt="" />
-          </div>
-        </div>
-      </section>
-
-      <section id="customer-service-secondary">
-        <div class="customer-service-text-secondary pes-10">
-          <p class="customer-service-title-secondary mt-2 mb-5">
-            Customer Service
-          </p>
-          <p class="customer-service-paragraph-secondary mt-2 mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus eos aliquid molestiae.
-          </p>
-          <button class="customer-service-button-secondary">
-            <a href="#"> Read More</a>
-          </button>
-        </div>
-        <div id="customer-service-img-secondary"></div>
-      </section>
-
-      <section id="rooms">
-        <section class="lorem-ipsum-head">
-          <p class="lorem-h">Lorem, ipsum.</p>
-          <p class="lorem-p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            tenetur.
-          </p>
-        </section>
-
-        <section class="room-cards">
-          <div class="room-card">
-            <img src="/img/room1.jpeg" alt="" />
-            <div class="room-content">
-              <p class="room-card-title">Deluxee Room</p>
-              <p class="room-card-text">Lorem, ipsum.</p>
-            </div>
-          </div>
-
-          <div class="room-card">
-            <img src="/img/room2.jpeg" alt="" />
-            <div class="room-content">
-              <p class="room-card-title">Deluxee Room</p>
-              <p class="room-card-text">Lorem, ipsum.</p>
-            </div>
-          </div>
-
-          <div class="room-card">
-            <img src="/img/room3.jpeg" alt="" />
-            <div class="room-content">
-              <p class="room-card-title">Deluxee Room</p>
-              <p class="room-card-text">Lorem, ipsum.</p>
-            </div>
-          </div>
-        </section>
-      </section>
-
-      <section id="profiles">
-        <section class="lorem-ipsum-head">
-          <p class="lorem-h">Lorem, ipsum.</p>
-          <p class="lorem-p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            tenetur.
-          </p>
-        </section>
-
-        <section class="profile-cards">
-          <div class="profile-card">
-            <img src="/img/p1.jpeg" alt="" srcset="" />
-            <p class="profile-name">Lorem, ipsum.</p>
-            <p class="profile-job">Manager</p>
-          </div>
-
-          <div class="profile-card">
-            <img src="/img/p2.jpeg" alt="" srcset="" />
-            <p class="profile-name">Lorem, ipsum.</p>
-            <p class="profile-job">Manager</p>
-          </div>
-
-          <div class="profile-card">
-            <img src="/img/p3.jpeg" alt="" srcset="" />
-            <p class="profile-name">Lorem, ipsum.</p>
-            <p class="profile-job">Manager</p>
-          </div>
-        </section>
-      </section>
-
-      <section id="contact">
-        <div id="contact-img"></div>
-        <div id="contact-form">
-          <p class="contact-us">Contact Us</p>
-          <form class="form">
-            <label for="fname" class="mt-5 mb-3">Name</label>
-            <input
-              type="text"
-              id="fname"
-              name="fname"
-              placeholder="Enter your name"
-            />
-            <label for="lname" class="mt-5 mb-3">Surname</label>
-            <input
-              type="text"
-              id="lname"
-              name="lname"
-              placeholder="Enter your surname"
-            />
-            <label for="lname " class="mt-5 mb-3">Phone</label>
-            <input
-              type="text"
-              id="lname"
-              name="lname"
-              placeholder="Enter your phone number"
-            />
-            <input type="submit" value="Submit" class="mt-5" />
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer id="footer">
-      <ul class="list footer-link mb-4">
-        <li class="lis-item mes-2">
-          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-        </li>
-
-        <li class="lis-item mes-2">
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        </li>
-
-        <li class="lis-item mes-2">
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        </li>
-
-        <li class="lis-item mes-2">
-          <a href="#"><i class="fa-brands fa-github"></i></a>
-        </li>
-
-        <li class="lis-item mes-2">
-          <a href="#"><i class="fa-brands fa-youtube"></i></a>
-        </li>
-      </ul>
-      <p class="copyright">Copyright &copy 2023 - Hotel Site</p>
-    </footer>
   </body>
 </html>
